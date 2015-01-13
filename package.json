@@ -1,0 +1,28 @@
+{
+  "name": "bedrock-jobs",
+  "version": "0.0.1",
+  "description": "Bedrock jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-jobs"
+  },
+  "keywords": [
+    "bedrock"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-jobs/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
+  "peerDependencies": {
+    "bedrock": "~0.3.0"
+  }
+}
