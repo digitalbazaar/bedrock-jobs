@@ -22,7 +22,15 @@
     "url": "https://github.com/digitalbazaar/bedrock-jobs/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
+  "dependencies": {
+    "async": "~0.9.0"
+  },
   "peerDependencies": {
-    "bedrock": "~0.3.0"
-  }
+    "bedrock": "~0.3.0",
+    "bedrock-mongodb": "~0.1.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/scheduler"
 }
