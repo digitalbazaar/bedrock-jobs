@@ -1,6 +1,6 @@
 {
   "name": "bedrock-jobs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Bedrock jobs",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "peerDependencies": {
     "bedrock": "~0.3.0",
-    "bedrock-mongodb": "~0.0.1"
+    "bedrock-mongodb": "~0.1.0"
   },
   "directories": {
     "lib": "./lib"
