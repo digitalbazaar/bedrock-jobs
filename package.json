@@ -2,7 +2,7 @@
   "name": "bedrock-jobs",
   "version": "0.1.1-dev",
   "description": "Bedrock jobs",
-  "main": "index.js",
+  "main": "./lib/scheduler",
   "scripts": {
     "test": "node test.js"
   },
@@ -31,6 +31,5 @@
   },
   "directories": {
     "lib": "./lib"
-  },
-  "main": "./lib/scheduler"
+  }
 }
