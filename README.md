@@ -42,7 +42,7 @@ bedrock.events.on('bedrock.init', function() {
 Jobs can be automatically scheduled by specifying `job` objects in
 `bedrock.config.scheduler.jobs`.
 
-For more documentation on configuration, see [config.js](https://github.com/digitalbazaar/bedrock-jobs/blob/master/lib/config.js).
+For more documentation on configuration, see [config.js](./lib/config.js).
 
 ## API
 
