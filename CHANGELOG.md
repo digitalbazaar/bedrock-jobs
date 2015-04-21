@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Changed
+- Use https://github.com/digitalbazaar/moment-interval fork.
+
 ### Fixed
 - Fix bug from conversion to `moment-interval`.
 - Emit scan events on `bedrock.ready`.
