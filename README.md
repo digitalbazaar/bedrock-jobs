@@ -28,7 +28,7 @@ config.scheduler.jobs.push({
 
 bedrock.events.on('bedrock.init', function() {
   // define job type so it will run in this bedrock instance
-  schedule.define('myproject.jobs.Scan', function(job, callback) {
+  scheduler.define('myproject.jobs.Scan', function(job, callback) {
     doSomeKindOfScan(function(err) {
       // scan finished
       callback(err);
