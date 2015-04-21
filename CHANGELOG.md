@@ -9,6 +9,7 @@
 - Fix bug from conversion to `moment-interval`.
 - Emit scan events on `bedrock.ready`.
 - Fix database result access.
+- Fix schedule() error path when options not passed in and job has no type.
 
 ## [1.0.0] - 2015-04-08
 
