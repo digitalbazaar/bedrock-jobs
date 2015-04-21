@@ -5,6 +5,7 @@
 ### Fixed
 - Fix bug from conversion to `moment-interval`.
 - Emit scan events on `bedrock.ready`.
+- Fix database result access.
 
 ## [1.0.0] - 2015-04-08
 
