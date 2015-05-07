@@ -1,6 +1,6 @@
 {
   "name": "bedrock-jobs",
-  "version": "1.0.1-dev",
+  "version": "1.0.1",
   "description": "Bedrock jobs",
   "main": "./lib/scheduler",
   "scripts": {
