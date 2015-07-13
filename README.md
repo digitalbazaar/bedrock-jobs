@@ -15,7 +15,7 @@ var bedrock = require('bedrock');
 require('bedrock-mongodb');
 var scheduler = require('bedrock-jobs');
 
-config.scheduler.jobs.push({
+bedrock.config.scheduler.jobs.push({
   id: 'myproject.jobs.Scan',
   type: 'myproject.jobs.Scan',
   // repeat forever, run every minute
