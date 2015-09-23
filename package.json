@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
-    "async": "~0.9.0",
+    "async": "^1.4.2",
     "moment-interval": "git://github.com/digitalbazaar/moment-interval"
   },
   "peerDependencies": {
