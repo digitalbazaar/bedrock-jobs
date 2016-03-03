@@ -1,6 +1,6 @@
 {
   "name": "bedrock-jobs",
-  "version": "1.0.2-dev",
+  "version": "2.0.0-dev",
   "description": "Bedrock jobs",
   "main": "./lib/scheduler",
   "scripts": {
@@ -24,11 +24,13 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
     "async": "^1.4.2",
+    "bedrock": "^1.0.0",
+    "bedrock-mongodb": "^2.0.0",
     "moment-interval": "git://github.com/digitalbazaar/moment-interval"
   },
   "peerDependencies": {
     "bedrock": "^1.0.0",
-    "bedrock-mongodb": "^1.0.0"
+    "bedrock-mongodb": "^2.0.0"
   },
   "directories": {
     "lib": "./lib"

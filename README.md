@@ -3,6 +3,10 @@
 A [bedrock][] module that exposes an API for scheduling and executing
 background jobs.
 
+## Requirements
+
+- npm v3+
+
 ## Quick Examples
 
 ```
