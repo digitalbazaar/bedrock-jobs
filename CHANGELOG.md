@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Fixed
+- Fix updating start of job schedule. Updating the start datetime
+  for a job schedule now leaves the period alone.
+
 ## [2.0.2] - 2016-06-07
 
 ### Changed
