@@ -55,21 +55,21 @@ For more documentation on configuration, see [config.js](./lib/config.js).
 Defines a new job type. Schedules jobs will only be processed if their types
 have been defined. A job `type` (a unique string) specifies:
 
-* The function that will be run to process a job of that type
-* How many workers can run a job of that type at the same time
+* The function that will be run to process a job of that type.
+* How many workers can run a job of that type at the same time (i.e. the
+  the total number of work permits for the job type).
 * How long a particular worker that is running a job of that type may run
-  before being considered expired, freeing another worker to take its place
-  and restart the job
+  before being considered expired, forcibly releasing its permit to allow
+  another worker to work on the job.
 
 Note that, due to current implementation limitations, lock duration can only
 be configured on a per-job-type basis, it cannot be configured per-job.
 
 The `options` may include:
 
-* **lockDuration** how long, in milliseconds, a job of this type will execute
-  in isolation before another worker may reattempt it; note that if a job is
-  scheduled to repeat, the lock duration should always be less than the
-  schedule or else the job may not be processed on time.
+* **lockDuration** how long, in milliseconds, a worker for a job of this type
+  may execute before its permit is forcibly released, there by permitting
+  another worker to execute the job.
 * **defaults** default job values to use:
   * **schedule** how often to run the job; schedules must be given as strings
     in [ISO 8601][] time interval format.
