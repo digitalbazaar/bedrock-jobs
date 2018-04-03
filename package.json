@@ -24,7 +24,8 @@
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
     "async": "^2.6.0",
-    "moment-interval": "git://github.com/digitalbazaar/moment-interval"
+    "moment-interval": "git://github.com/digitalbazaar/moment-interval",
+    "uuid": "^3.2.1"
   },
   "peerDependencies": {
     "bedrock": "^1.9.2",
