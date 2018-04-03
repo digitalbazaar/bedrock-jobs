@@ -27,8 +27,8 @@
     "moment-interval": "git://github.com/digitalbazaar/moment-interval"
   },
   "peerDependencies": {
-    "bedrock": "^1.0.0",
-    "bedrock-mongodb": "^3.0.0"
+    "bedrock": "^1.9.2",
+    "bedrock-mongodb": "^5.1.2"
   },
   "directories": {
     "lib": "./lib"
