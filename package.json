@@ -29,7 +29,7 @@
   },
   "peerDependencies": {
     "bedrock": "^1.9.2",
-    "bedrock-mongodb": "^5.1.2"
+    "bedrock-mongodb": "4.x - 5.x"
   },
   "directories": {
     "lib": "./lib"
