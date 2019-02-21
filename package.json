@@ -4,7 +4,8 @@
   "description": "Bedrock jobs",
   "main": "./lib",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
@@ -33,5 +34,9 @@
   },
   "directories": {
     "lib": "./lib"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-digitalbazaar": "^1.6.0"
   }
 }
