@@ -56,7 +56,7 @@ DEFINITIONS
 ===========
 
 * Product - The Bedrock software and any modules associated with Bedrock
-where Digital Bazaar, Inc. owns the copyright.
+  where Digital Bazaar, Inc. owns the copyright.
 
 CONDITIONS
 ==========

@@ -1,5 +1,11 @@
 # bedrock-jobs ChangeLog
 
+## 3.0.0 - TBD
+
+### Changed
+- **BREAKING** The 3.x API is entirely new and is in no way backward compatible
+  with 2.x.
+
 ## 2.0.4 - 2018-04-06
 
 ### Changed

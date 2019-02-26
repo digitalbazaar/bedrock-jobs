@@ -2,18 +2,15 @@
   "name": "bedrock-jobs",
   "version": "2.0.5-0",
   "description": "Bedrock jobs",
-  "main": "./lib",
+  "main": "lib",
   "scripts": {
-    "test": "node test.js",
+    "generate-readme": "jsdoc2md -t readme-template.hbs lib/*.js > README.md",
     "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/bedrock-jobs"
+    "url": "https://github.com/digitalbazaar/bedrock-jobs.git"
   },
-  "keywords": [
-    "bedrock"
-  ],
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
@@ -24,19 +21,18 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
-    "async": "^2.6.0",
-    "moment-interval": "git://github.com/digitalbazaar/moment-interval",
-    "uuid": "^3.2.1"
+    "bull": "~3.6.0"
   },
   "peerDependencies": {
-    "bedrock": "^1.9.2",
-    "bedrock-mongodb": "4.x - 5.x"
+    "bedrock": "^1.12.0"
   },
-  "directories": {
-    "lib": "./lib"
+  "engines": {
+    "node": ">=8.9.0"
   },
   "devDependencies": {
-    "eslint": "^5.14.1",
-    "eslint-config-digitalbazaar": "^1.6.0"
+    "eslint": "^5.13.0",
+    "eslint-config-digitalbazaar": "^1.5.0",
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1"
   }
 }

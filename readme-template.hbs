@@ -1,0 +1,16 @@
+# bedrock-jobs
+
+A job queue for Bedrock applications backed by
+[Bull](https://github.com/OptimalBits/bull).
+
+## Usage
+If multiple instances of the same Bedrock application are running on the same
+Redis server, a unique `prefix` should be assigned in each application's
+Bedrock configuration. This is analogous to specifying a different database
+for each application when using `bedrock-mongodb`.
+```
+config.jobs.queueOptions.prefix = 'myApplicationPrefix';
+```
+
+# API Reference
+{{>main}}
