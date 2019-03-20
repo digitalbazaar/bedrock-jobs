@@ -9,7 +9,7 @@ Redis server, a unique `prefix` should be assigned in each application's
 Bedrock configuration. This is analogous to specifying a different database
 for each application when using `bedrock-mongodb`.
 ```
-config.bull.queueOptions.prefix = 'myApplicationPrefix';
+config.jobs.queueOptions.prefix = 'myApplicationPrefix';
 ```
 
 # API Reference
