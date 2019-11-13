@@ -24,7 +24,7 @@
     "bull": "~3.6.0"
   },
   "peerDependencies": {
-    "bedrock": "^1.12.0"
+    "bedrock": "1.x - 3.x"
   },
   "engines": {
     "node": ">=8.9.0"
