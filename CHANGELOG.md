@@ -1,5 +1,10 @@
 # bedrock-jobs ChangeLog
 
+## 3.0.1 - 2019-11-13
+
+### Changed
+- Allow peer dependency of bedrock v1 - v3.
+
 ## 3.0.0 - 2019-03-20
 
 ### Changed
