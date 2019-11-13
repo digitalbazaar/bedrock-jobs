@@ -2,6 +2,7 @@
   "name": "bedrock-jobs",
   "version": "3.0.1-0",
   "description": "Bedrock jobs",
+  "license": "SEE LICENSE IN LICENSE.md",  
   "main": "lib",
   "scripts": {
     "generate-readme": "jsdoc2md -t readme-template.hbs lib/*.js > README.md",
