@@ -1,5 +1,10 @@
 # bedrock-jobs ChangeLog
 
+## 3.1.0 - TBD
+
+### Changed
+- Use bull@3.20.0.
+
 ## 3.0.1 - 2019-11-13
 
 ### Changed
