@@ -6,7 +6,9 @@
   "main": "lib",
   "scripts": {
     "generate-readme": "jsdoc2md -t readme-template.hbs lib/*.js > README.md",
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
-    "bull": "~3.6.0"
+    "bull": "~3.6.0",
+    "snyk": "^1.316.2"
   },
   "peerDependencies": {
     "bedrock": "1.x - 3.x"
@@ -36,5 +39,6 @@
     "eslint-plugin-jsdoc": "^4.4.3",
     "jsdoc": "^3.5.5",
     "jsdoc-to-markdown": "^4.0.1"
-  }
+  },
+  "snyk": true
 }
