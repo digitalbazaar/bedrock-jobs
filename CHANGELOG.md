@@ -1,6 +1,6 @@
 # bedrock-jobs ChangeLog
 
-## 3.1.0 - TBD
+## 3.1.0 - 2020-11-30
 
 ### Changed
 - Use bull@3.20.0.
