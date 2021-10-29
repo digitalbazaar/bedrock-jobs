@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-jobs",
   "dependencies": {
-    "bull": "^3.20.0"
+    "bull": "^4.0.0"
   },
   "peerDependencies": {
     "bedrock": "1.x - 3.x"
