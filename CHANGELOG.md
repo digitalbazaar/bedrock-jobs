@@ -1,6 +1,6 @@
 # bedrock-jobs ChangeLog
 
-## 3.2.0 - TBD
+## 3.2.0 - 2021-11-02
 
 ### Changed
 - Use `bull@4`. The breaking changes in Bull are related to error handling and
