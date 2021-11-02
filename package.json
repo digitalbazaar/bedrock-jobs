@@ -1,6 +1,6 @@
 {
   "name": "bedrock-jobs",
-  "version": "3.2.0",
+  "version": "3.2.1-0",
   "description": "Bedrock jobs",
   "license": "SEE LICENSE IN LICENSE.md",
   "main": "lib",
